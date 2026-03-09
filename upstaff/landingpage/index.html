@@ -25,15 +25,15 @@
         <div class="container mx-auto flex items-center justify-between px-6 py-4">
 
             <!-- Logo -->
-            <a href="#" class="flex items-center gap-2">
+            <a href="index.html" class="flex items-center gap-2">
                 <img src="assets/logo.jpg" alt="Upstaff Academy" class="w-12 h-12">
                 <span class="text-lg font-semibold">Upstaff Academy</span>
             </a>
 
             <!-- Desktop Menu -->
             <nav class="hidden md:flex gap-6">
-                <a href="#home" class="hover:text-blue-600">Home</a>
-                <a href="#about" class="hover:text-blue-600">About</a>
+                <a href="index.html" class="hover:text-blue-600">Home</a>
+                <a href="about.html" class="hover:text-blue-600">About</a>
                 <a href="#courses" class="hover:text-blue-600">Courses</a>
                 <a href="#contact" class="hover:text-blue-600">Contact</a>
             </nav>
@@ -44,8 +44,8 @@
 
         <!-- Mobile Menu -->
         <nav id="mobileMenu" class="hidden md:hidden bg-white border-t">
-            <a href="#home" class="block px-6 py-2">Home</a>
-            <a href="#about" class="block px-6 py-2">About</a>
+            <a href="index.html" class="block px-6 py-2">Home</a>
+            <a href="about.html" class="block px-6 py-2">About</a>
             <a href="#courses" class="block px-6 py-2">Courses</a>
             <a href="#contact" class="block px-6 py-2">Contact</a>
         </nav>
@@ -64,18 +64,16 @@
                 </p>
 
                 <div class="mt-8 flex gap-2">
-                    <input type="email" placeholder="Enter your email"
-                        class="w-full px-4 py-3 border rounded-lg">
-<a href="/upstaff/login/login.php"
-   class="px-4 py-2.5 rounded-lg font-medium text-white bg-blue-600 hover:bg-blue-700 transition">
-    Get Started
-</a>
+                    <a href="/upstaff/login/login.php"
+                        class="px-4 py-2.5 rounded-lg font-medium text-white bg-blue-600 hover:bg-blue-700 transition">
+                        Get Started
+                    </a>
                 </div>
             </div>
 
             <div>
-                <img src="https://readymadeui.com/images/meeting-img.webp"
-                    alt="Learning" class="w-full rounded-xl shadow-lg">
+                <img src="https://readymadeui.com/images/meeting-img.webp" alt="Learning"
+                    class="w-full rounded-xl shadow-lg">
             </div>
         </div>
     </section>
@@ -116,9 +114,60 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-gray-100 py-6">
-        <div class="container mx-auto text-center text-gray-600">
-            © 2026 Upstaff Academy. All rights reserved.
+    <footer class="bg-gray-950 border-t border-gray-800 px-10 py-12">
+        <div class="max-w-6xl mx-auto">
+
+            <!-- Grid -->
+            <div class="grid grid-cols-4 gap-10 mb-10">
+                <div>
+                    <p class="text-white font-semibold mb-3">Upstaff Academy</p>
+                    <p class="text-gray-500 text-sm leading-relaxed">Your dedicated learning hub for career growth and
+                        skill development at Upstaff.</p>
+                </div>
+                <div>
+                    <p class="text-white font-semibold mb-3">Resources</p>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-500 text-sm hover:text-white transition-colors">Features</a>
+                        </li>
+                        <li><a href="#" class="text-gray-500 text-sm hover:text-white transition-colors">FAQ</a></li>
+                        <li><a href="#" class="text-gray-500 text-sm hover:text-white transition-colors">Support</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="text-white font-semibold mb-3">Company</p>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-500 text-sm hover:text-white transition-colors">About</a></li>
+                        <li><a href="#" class="text-gray-500 text-sm hover:text-white transition-colors">FAQ</a></li>
+                        <li><a href="#" class="text-gray-500 text-sm hover:text-white transition-colors">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="text-white font-semibold mb-3">Legal</p>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-500 text-sm hover:text-white transition-colors">Privacy</a>
+                        </li>
+                        <li><a href="#" class="text-gray-500 text-sm hover:text-white transition-colors">Terms</a></li>
+                        <li><a href="#" class="text-gray-500 text-sm hover:text-white transition-colors">Cookies</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bottom bar -->
+            <div class="border-t border-gray-800 pt-6 flex items-center justify-between">
+                <p class="text-gray-500 text-sm">© 2026 Upstaff Academy. All rights reserved.</p>
+                <div class="flex items-center gap-6">
+                    <a href="https://www.facebook.com/upstaffzamboanga"
+                        class="text-gray-500 text-sm hover:text-white transition-colors">Facebook</a>
+                    <a href="https://www.linkedin.com/company/upstaffau/"
+                        class="text-gray-500 text-sm hover:text-white transition-colors">LinkedIn</a>
+                    <a href="https://www.instagram.com/upstaff.ca/"
+                        class="text-gray-500 text-sm hover:text-white transition-colors">Instagram</a>
+                </div>
+            </div>
+
         </div>
     </footer>
 
@@ -132,4 +181,5 @@
     </script>
 
 </body>
+
 </html>
