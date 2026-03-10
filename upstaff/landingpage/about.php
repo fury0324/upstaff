@@ -77,25 +77,6 @@
                     everywhere to adapt, thrive, and lead in an ever-changing world.
                 </p>
             </div>
-
-            <!-- Vision pillars -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-5 max-w-5xl mx-auto">
-                <div class="bg-gray-50 border border-gray-200 rounded-2xl p-7 text-center hover:border-blue-500/30 transition-colors">
-                    <div class="text-4xl mb-4">🌐</div>
-                    <h3 class="font-[Syne] font-semibold text-lg mb-2 text-blue-600">Global Reach</h3>
-                    <p class="text-gray-600 text-sm leading-relaxed">Bringing world-class learning to every corner of the globe, breaking language and geographic barriers.</p>
-                </div>
-                <div class="bg-gray-50 border border-gray-200 rounded-2xl p-7 text-center hover:border-blue-500/30 transition-colors">
-                    <div class="text-4xl mb-4">🤖</div>
-                    <h3 class="font-[Syne] font-semibold text-lg mb-2 text-blue-600">AI-Powered Growth</h3>
-                    <p class="text-gray-600 text-sm leading-relaxed">Leveraging artificial intelligence to personalize every learning journey and surface the right content at the right time.</p>
-                </div>
-                <div class="bg-gray-50 border border-gray-200 rounded-2xl p-7 text-center hover:border-blue-500/30 transition-colors">
-                    <div class="text-4xl mb-4">♾️</div>
-                    <h3 class="font-[Syne] font-semibold text-lg mb-2 text-blue-600">Lifelong Learning</h3>
-                    <p class="text-gray-600 text-sm leading-relaxed">Fostering a culture where curiosity and growth are celebrated at every stage of a person's career.</p>
-                </div>
-            </div>
         </div>
     </section>
 
