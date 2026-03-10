@@ -30,7 +30,7 @@
         <div class="container mx-auto grid md:grid-cols-2 gap-10 items-center">
 
             <div>
-                <h1 class="text-4xl md:text-5xl font-bold leading-tight fade-up">
+                <h1 class="font-[Syne] font-extrabold text-4xl md:text-5xl font-bold leading-tight fade-up">
                     Learn Skills. Build Careers. Join Upstaff Academy.
                 </h1>
                 <p class="mt-4 text-lg text-gray-600 fade-up delay-1">
